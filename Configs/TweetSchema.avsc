@@ -1,0 +1,29 @@
+{
+  "type": "record",
+  "name": "Tweet",
+  "namespace": "com.example.avro",
+  "doc": "This is a user record in a fictitious to-do-list management app. It supports arbitrary grouping and nesting of items, and allows you to add items by email or by tweeting.\n\nNote this app doesn't actually exist. The schema is just a demo for [Avrodoc](https://github.com/ept/avrodoc)!",
+  "fields": [
+  
+  {
+      "name": "CreationTime",
+      "doc": "tweet creation time.",
+      "type": "string"
+    },
+    {
+      "name": "TweetId",
+      "doc": "Twitter user ID",
+      "type": "string"
+    },
+	{
+      "name": "TweetText",
+      "doc": "Twitter message",
+      "type": "string"
+    }, 
+  {
+      "name": "TwitterUser",
+      "doc": "Twitter user ID",
+      "type": "string"
+    }
+  ]
+ }
